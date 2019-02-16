@@ -1,0 +1,26 @@
+{
+  "name": "gulp-less-image",
+  "version": "1.0.0",
+  "description": "Small module that compiles .less to .css, minifies image files, and reloads browser when done.",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulpplugin",
+    "imagemin",
+    "minify",
+    "gulp",
+    "less",
+    "browser-sync"
+  ],
+  "author": "Mathias Nervik",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-less": "^4.0.1"
+  },
+  "devDependencies": {}
+}
